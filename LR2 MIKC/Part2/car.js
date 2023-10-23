@@ -10,3 +10,4 @@ export class Car {
       this.panoramicRoof = null;
     }
   }
+  
