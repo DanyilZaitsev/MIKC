@@ -8,4 +8,3 @@
 | IDE | VS Code |
 | Prog Language | JavaScript |
 | Database | MySQL |
-***

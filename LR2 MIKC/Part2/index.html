@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car configurator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="car-configurator">
+    <h1>Car configurator</h1>
+    <form id="carConfigForm">
+      <label for="engine">Engine:</label>
+
+      <select id="engine" name="engine">
+        <option value="Diesel">Diesel</option>
+        <option value="Gasoline">Gasoline</option>
+        <option value="Electro">Electro</option>
+        <option value="Hybrid">Hybrid</option>
+      </select>
+
+      <label for="transmission">Transmission:</label>
+      <select id="transmission" name="transmission">
+        <option value="Automatic">Automatic</option>
+        <option value="Mechanical">Mechanical</option>
+        <option value="Semi-automatic">Semi-automatic</option>
+      </select>
+
+      <label for="lights">Headlight type:</label>
+      <select id="lights" name="lights">
+        <option value="LED">LED</option>
+        <option value="Галогенові">Halogen</option>
+      </select>
+
+      <label for="wheels">Disc type:</label>
+      <select id="wheels" name="wheels">
+        <option value="Light alloy">Light alloy</option>
+        <option value="Steel">Steel</option>
+        <option value="Titanium">Titanium</option>
+      </select>
+
+      <label for="camera">Rear view camera:</label>
+      <input type="checkbox" id="camera" name="camera">
+
+      <label for="securitySystem">Security system:</label>
+      <input type="checkbox" id="securitySystem" name="securitySystem">
+
+      <label for="panoramicRoof">Panoramic roof:</label>
+      <input type="checkbox" id="panoramicRoof" name="panoramicRoof">
+
+
+      <label for="filename">File name:</label>
+      <input type="text" id="filename" placeholder="Введіть ім'я файлу">
+      <button id="saveButton" type="button">Save the configuration</button>
+
+    </form>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
+
