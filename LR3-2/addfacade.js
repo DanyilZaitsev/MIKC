@@ -1,9 +1,8 @@
+import BaseFacade from './basefacade.js';
 
     // Facade for handling service orders
-    class ServiceFacade {
-        constructor() {
-            this.activeOrders = {};
-        }
+    class ServiceFacade extends BaseFacade{
+        
     
         // Method to open a service order
         openOrder(order) {
