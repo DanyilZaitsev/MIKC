@@ -18,5 +18,9 @@ const module2 = {
 smartHomeSystem.addModule(module1);
 smartHomeSystem.addModule(module2);
 
-smartHomeSystem.processMessage({ type: 'info', content: 'General message' });
-smartHomeSystem.processMessage({ type: 'alert', content: 'Accident report' });
+// Define constants for message types
+const INFO_TYPE = 'info';
+const ALERT_TYPE = 'alert';
+
+smartHomeSystem.processMessage({ type: INFO_TYPE, content: 'General message' });
+smartHomeSystem.processMessage({ type: ALERT_TYPE, content: 'Accident report' });
