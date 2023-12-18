@@ -1,0 +1,17 @@
+#app {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  #client, #specialist {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #log {
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
